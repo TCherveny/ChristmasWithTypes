@@ -8,13 +8,13 @@ namespace ChristmasWithTypes
         {
             var xmas = new Christmas();
 
-            var xmasDay = Christmas.Day.His Day;
+            var xmasDay = Christmas.Day.Thursday;
 
             //DONE set Santa's name to Kris Kringle
             xmas.Santa = "Kris Kringle";
 
-            //TODO Insert 3 presents you would like for xmas.  They must be strings
-            xmas.Presents =  new string[3]{ }; 
+            //DONE Insert 3 presents you would like for xmas.  They must be strings
+            xmas.Presents =  new string[4]{ "My", "Two", "front", "Teeth"}; 
 
             //TODO Set the TreeHeight to 10
             xmas.TreeHeight = 10;
